@@ -1,0 +1,123 @@
+/* TaskManager.css */
+
+/* Task Manager container */
+.task-manager {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Task Form */
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input[type="text"],
+.task-form textarea,
+.task-form input[type="date"],
+.task-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Task List */
+.task-list-container {
+  margin-top: 20px;
+}
+
+.task-list h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* FAQ Card */
+.faq-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.faq-card .faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-card .faq-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.faq-card .faq-details {
+  margin-top: 10px;
+}
+
+/* Card Colors */
+.red-card {
+  border-color: #ff5252;
+}
+
+.yellow-card {
+  border-color: #ffca28;
+}
+
+.green-card {
+  border-color: #66bb6a;
+}
+
+/* Description Overflow */
+.faq-card {
+  max-height: 250px;
+  overflow: auto;
+}
+
+/* Task Actions (Edit, Trash) */
+.task-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+
+
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.task-card p {
+  font-size: 1rem;
+  color: #777;
+}
